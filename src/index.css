@@ -8,26 +8,38 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 248 250 252;
+    --foreground: 213 27% 17%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 255 255 255;
+    --card-foreground: 213 27% 17%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 255 255 255;
+    --popover-foreground: 213 27% 17%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 213 94% 68%;
+    --primary-foreground: 255 255 255;
+    --primary-soft: 213 94% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 213 27% 17%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 213 10% 53%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 100% 97%;
+    --accent-foreground: 213 94% 68%;
+
+    --medical-blue: 213 94% 68%;
+    --medical-blue-dark: 213 94% 55%;
+    --medical-light: 210 100% 97%;
+    --trust-blue: 217 91% 60%;
+    
+    --gradient-medical: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(217 91% 60%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(255 255 255) 0%, hsl(248 250 252) 100%);
+    
+    --shadow-medical: 0 10px 30px -10px hsl(213 94% 68% / 0.2);
+    --shadow-soft: 0 4px 12px -4px hsl(213 27% 17% / 0.1);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
