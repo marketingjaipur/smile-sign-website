@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -76,6 +77,12 @@ const services = [
 const ServicesPage = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Dental Services in Jaipur - Orthodontics, Cosmetic Dentistry | SMILECRAFT Hospital"
+        description="Comprehensive dental services in Jaipur by Dr. Priyanka Singh. Orthodontics, braces, cosmetic dentistry, teeth whitening, preventive care. Located in Dholai, Jaipur."
+        keywords="dental services jaipur, orthodontics jaipur, braces treatment jaipur, cosmetic dentistry jaipur, teeth whitening jaipur, dental clinic dholai"
+        canonical="https://smilecraftdental.com/services"
+      />
       <Header />
       
       {/* Hero Section */}

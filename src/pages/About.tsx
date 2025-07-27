@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -48,6 +49,12 @@ const specializations = [
 const AboutPage = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="About Dr. Priyanka Singh - Expert Orthodontist in Jaipur | SMILECRAFT Dental Hospital"
+        description="Meet Dr. Priyanka Singh, M.D.S Orthodontist at SMILECRAFT Dental Hospital, Jaipur. 5+ years experience, 1000+ happy patients. Expert in braces, teeth alignment & cosmetic dentistry."
+        keywords="dr priyanka singh orthodontist, orthodontist jaipur, mds orthodontics, dental surgeon jaipur, smilecraft dental hospital, teeth alignment specialist jaipur"
+        canonical="https://smilecraftdental.com/about"
+      />
       <Header />
       
       {/* Hero Section */}
@@ -79,7 +86,7 @@ const AboutPage = () => {
             <div className="relative animate-scale-in">
               <Card className="overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop"
+                  src="/lovable-uploads/479488277_17995938365756085_7720740443232890062_n.jpg"
                   alt="Dr. Priyanka Singh"
                   className="w-full h-96 object-cover"
                 />

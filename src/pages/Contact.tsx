@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
+import NAP from "@/components/NAP";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -68,6 +70,12 @@ const services = [
 const ContactPage = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Contact SMILECRAFT Dental Hospital Jaipur - Book Appointment with Dr. Priyanka Singh"
+        description="Contact SMILECRAFT Dental Hospital in Dholai, Jaipur. Book appointment with Dr. Priyanka Singh. Call 072308 28551. Address: C42, Sheer Sagar Patarkar Colony, Jaipur 302020"
+        keywords="contact smilecraft dental, book appointment jaipur dentist, dr priyanka singh contact, dental clinic dholai jaipur, orthodontist appointment jaipur"
+        canonical="https://smilecraftdental.com/contact"
+      />
       <Header />
       
       {/* Hero Section */}
@@ -175,6 +183,15 @@ const ContactPage = () => {
             
             {/* Contact Information */}
             <div className="space-y-8">
+              <Card className="hover-lift">
+                <CardHeader>
+                  <CardTitle>Visit Our Clinic</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <NAP variant="contact" showIcons={true} />
+                </CardContent>
+              </Card>
+              
               <Card className="hover-lift">
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-3">

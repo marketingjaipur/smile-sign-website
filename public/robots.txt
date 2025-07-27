@@ -4,6 +4,11 @@ Allow: /
 # Sitemap
 Sitemap: https://smilecraftdental.com/sitemap.xml
 
+# Local Business Information
+# SMILECRAFT Dental Hospital
+# Address: C42, Sheer Sagar Patarkar Colony, Patrakar Colony, Dholai, Jaipur, Rajasthan 302020
+# Phone: 072308 28551
+# Services: Orthodontics, Cosmetic Dentistry, Preventive Care
 # Specific rules for search engines
 User-agent: Googlebot
 Allow: /

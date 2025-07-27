@@ -54,8 +54,8 @@ const Hero = () => {
           <div className="relative">
             <Card className="overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/8d8aacd7-f8df-4392-9234-2719912c37fa.png" 
-                alt="Smilecraft Dental Clinic" 
+                src="/lovable-uploads/479488246_17995938374756085_2842135367964327149_n.jpg" 
+                alt="SMILECRAFT Dental Hospital - Dr. Priyanka Singh" 
                 className="w-full h-96 object-cover"
               />
             </Card>
@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Emergency Care</p>
-                  <p className="text-primary font-medium">72308 28551</p>
+                  <p className="text-primary font-medium">072308 28551</p>
                 </div>
               </div>
             </div>
